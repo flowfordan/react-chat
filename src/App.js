@@ -11,7 +11,7 @@ function App() {
           <h2>ZDAROVA3</h2>
       </header>
       <div>
-        Privet
+        How is it going
       </div>
     </div>
   );
