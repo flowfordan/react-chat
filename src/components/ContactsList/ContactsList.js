@@ -1,4 +1,6 @@
 import React from "react";
+import s from './ContactsList.module.css'
+
 
 const ContactsList = () => {
 
@@ -21,7 +23,7 @@ const ContactsList = () => {
 
     return(
         <>
-            <ul>
+            <ul className={s.list}>
                 {contactList}
             </ul>
         </>
