@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
           Zdarova
           <h1>ZDAROVA</h1>
           <h2>ZDAROVA2</h2>
@@ -12,9 +12,6 @@ function App() {
       </header>
       <div>
         Privet
-      </div>
-      <div>
-        Whats up
       </div>
     </div>
   );
