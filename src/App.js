@@ -8,6 +8,9 @@ function App() {
           Zdarova
           <h1>ZDAROVA</h1>
       </header>
+      <div>
+        Privet
+      </div>
     </div>
   );
 }
