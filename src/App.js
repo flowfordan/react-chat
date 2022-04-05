@@ -10,6 +10,9 @@ function App() {
       <div>
         Privet
       </div>
+      <div>
+        Whats up
+      </div>
     </div>
   );
 }
