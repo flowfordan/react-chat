@@ -7,6 +7,9 @@ function App() {
       <header className="App-header">
           Zdarova
       </header>
+      <div>
+        Privet
+      </div>
     </div>
   );
 }
