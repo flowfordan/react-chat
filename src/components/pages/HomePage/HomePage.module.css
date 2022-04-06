@@ -1,0 +1,40 @@
+.layout {
+    display: grid;
+
+    grid-template-areas: 
+    "sidebar desk";
+    grid-template-columns: auto 1fr;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border-right: 1px solid var(--grey-main);
+    display: block;
+
+    
+}
+
+.desk {
+    grid-area: desk;
+}
+
+
+.contacts {
+    
+    overflow: scroll;
+    grid-area: contacts;
+}
+
+.profile {
+    grid-area: profile;
+
+}
+
+.search {
+    position: fixed;
+    bottom: 0;
+    padding: 20px 30px;
+    background-color: var(--white);
+    grid-area: search;
+    
+}

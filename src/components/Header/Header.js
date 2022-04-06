@@ -5,10 +5,11 @@ const Header = () => {
 
 
     return(
-        <>
-            <span>Logo</span>
-            <span>Login Menu</span>
-        </>
+        <header className={styles.header}>
+            <span className={styles.logo}>Logo</span>
+            <span className={styles.about}>About</span>
+            <span className={styles.logout}>Logout</span>
+        </header>
     )
 
 

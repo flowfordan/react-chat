@@ -17,7 +17,7 @@ const ContactsList = () => {
 
     const contactList = contacts.map((contact) => {
         return(
-            <li key={contact.id}>{`${contact.name} ${contact.surname}`}</li>
+            <li style={{border: '1px solid', padding: '20px 30px'}} key={contact.id}>{`${contact.name} ${contact.surname}`}</li>
         )
     })
 
