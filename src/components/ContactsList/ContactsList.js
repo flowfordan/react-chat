@@ -13,6 +13,14 @@ const ContactsList = () => {
         {id: 6, name: 'Hoka', surname: 'Hokovich', profileImg: ''},
         {id: 7, name: 'Voka', surname: 'Vokovich', profileImg: ''},
         {id: 8, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 9, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 10, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 11, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 12, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 13, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 14, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 15, name: 'Woka', surname: 'Wokovich', profileImg: ''},
+        {id: 16, name: 'Woka', surname: 'Wokovich', profileImg: ''},
     ]
 
     const contactList = contacts.map((contact) => {

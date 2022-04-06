@@ -9,18 +9,22 @@ function App() {
   return (
     <div className={styles.wrapper}>
 
-        <Header className={styles.header}/>
+        <div className={styles.header}>
+          <Header />
+        </div>
+        
 
 
-
+        <div className={styles.body}>
         <BrowserRouter>
           <Routes>
-            <Route path='/start' element={<div className={styles.body}>Start page</div>}/>
-            <Route path='/login' element={<AuthPage className={styles.body}/>} />
-            <Route path='/signup' element={<AuthPage className={styles.body}/>} />
-            <Route path='/*' element={<HomePage className={styles.body}/>} />
+            <Route path='/start' element={<div>Start page</div>}/>
+            <Route path='/login' element={<AuthPage />} />
+            <Route path='/signup' element={<AuthPage />} />
+            <Route path='/*' element={<HomePage />} />
           </Routes>
         </BrowserRouter>
+        </div>
  
 
     </div>

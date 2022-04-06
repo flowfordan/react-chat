@@ -1,17 +1,17 @@
 .wrapper {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    grid-template-columns: auto;
-    grid-template-areas: 
-    "header"
-    "body";
+    display: block;
     min-height: 100vh;
 }
 
 .header {
-    grid-area: header;
+    
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+
 }
 
 .body {
-    grid-area: body;
+    margin-top: 50px;
+
 }

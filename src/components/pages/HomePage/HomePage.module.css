@@ -1,6 +1,5 @@
 .layout {
     display: grid;
-
     grid-template-areas: 
     "sidebar desk";
     grid-template-columns: auto 1fr;
@@ -10,9 +9,8 @@
     grid-area: sidebar;
     border-right: 1px solid var(--grey-main);
     display: block;
-
-    
 }
+
 
 .desk {
     grid-area: desk;
@@ -20,18 +18,19 @@
 
 
 .contacts {
-    
     overflow: scroll;
     grid-area: contacts;
 }
 
 .profile {
+    position: sticky;
+    top: 0;
     grid-area: profile;
 
 }
 
 .search {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     padding: 20px 30px;
     background-color: var(--white);
