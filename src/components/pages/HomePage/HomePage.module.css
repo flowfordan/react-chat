@@ -3,12 +3,22 @@
     grid-template-areas: 
     "sidebar desk";
     grid-template-columns: auto 1fr;
+
 }
 
 .sidebar {
+
     grid-area: sidebar;
     border-right: 1px solid var(--grey-main);
-    display: block;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+
+    /* grid-template-areas: 
+    "profile"
+    "contacts"
+    "search";
+    grid-template-rows: auto auto auto; */
 }
 
 
@@ -18,13 +28,16 @@
 
 
 .contacts {
-    overflow: scroll;
+    overflow: auto;
     grid-area: contacts;
+    margin-top: 50px;
+    
+
 }
 
 .profile {
     position: sticky;
-    top: 0;
+    top: 50px;
     grid-area: profile;
 
 }

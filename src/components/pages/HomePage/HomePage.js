@@ -11,10 +11,13 @@ const HomePage = () => {
 
             <div className={styles.sidebar}>
                 
-                <Profile className={styles.profile}/>
-                
+                <div className={styles.profile}>
+                <Profile />
+                </div>
 
-                <ContactsList className={styles.contacts}/>
+                <div className={styles.contacts}>
+                <ContactsList />
+                </div>
 
                 <div className={styles.search}>
                     Find friends
